@@ -1,0 +1,10 @@
+CarlosRodriguez 78-349 98.5 70 65.4
+MariaGonzalez 45-123 88.2 76.3 92.1
+RobertSmith 23-567 77.8 84.5 68.9
+SarahJohnson 56-789 93.4 89.7 91.2
+DavidBrown 12-345 76.5 82.3 79.8
+JenniferDavis 34-678 85.2 90.1 87.6
+MichaelMiller 67-890 91.6 77.2 85.3
+JessicaMartinez 89-012 78.9 88.4 91.7
+WilliamTaylor 01-234 89.3 91.8 88.5
+EmilyWilson 78-901 95.2 86.7 93.0
