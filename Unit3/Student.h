@@ -14,6 +14,6 @@ class Student
     Student(){};
     Student(string file_name, int num_std);
     ~Student();
-    void compute_final_grade();
+    void compute_final_grade(string outputfile_name);
     int find_student(string name);
 };

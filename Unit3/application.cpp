@@ -66,6 +66,7 @@ int Student::find_student(string name)
         {
             index = i;
             cout<<"Student was found."<<endl;
+            break;
         }
     }
 
@@ -75,4 +76,19 @@ int Student::find_student(string name)
     }
 
     return index;
+}
+
+void Student::compute_final_grade(string outputfile_name)
+{
+    ofstream OutputFile;
+    OutputFile.open(outputfile_name);
+    double final_grade;
+
+    for(int i=0; i<num_students; i++)
+    {
+
+           final_grade = (test_grade[i][0]+test_grade[i][1]+test_grade[i][2])/3;
+           OutputFile << student_inf[i][0] <<"Final Grade: "<<final_grade<<endl; 
+        
+    }
 }
