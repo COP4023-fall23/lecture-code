@@ -88,7 +88,7 @@ void Student::compute_final_grade(string outputfile_name)
     {
 
            final_grade = (test_grade[i][0]+test_grade[i][1]+test_grade[i][2])/3;
-           OutputFile << student_inf[i][0] <<"Final Grade: "<<final_grade<<endl; 
+           OutputFile << student_inf[i][0] <<" Final Grade: "<<final_grade<<endl; 
         
     }
 }
